@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D1A678CD1ED55CD60098C64F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A678CC1ED55CD60098C64F /* main.m */; };
 		D1A678D51ED55D0E0098C64F /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A678D41ED55D0E0098C64F /* People.m */; };
+		D1A678DB1ED570D60098C64F /* People+Associated.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A678DA1ED570D60098C64F /* People+Associated.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		D1A678CC1ED55CD60098C64F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1A678D31ED55D0E0098C64F /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
 		D1A678D41ED55D0E0098C64F /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		D1A678D91ED570D60098C64F /* People+Associated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "People+Associated.h"; sourceTree = "<group>"; };
+		D1A678DA1ED570D60098C64F /* People+Associated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "People+Associated.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				D1A678CC1ED55CD60098C64F /* main.m */,
 				D1A678D31ED55D0E0098C64F /* People.h */,
 				D1A678D41ED55D0E0098C64F /* People.m */,
+				D1A678D91ED570D60098C64F /* People+Associated.h */,
+				D1A678DA1ED570D60098C64F /* People+Associated.m */,
 			);
 			path = Runtime2;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A678DB1ED570D60098C64F /* People+Associated.m in Sources */,
 				D1A678D51ED55D0E0098C64F /* People.m in Sources */,
 				D1A678CD1ED55CD60098C64F /* main.m in Sources */,
 			);

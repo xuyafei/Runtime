@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "People.h"
+#import "People+Associated.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -17,6 +18,13 @@ int main(int argc, const char * argv[]) {
         cangTeacher.name = @"苍井空";
         cangTeacher.age = 18;
         [cangTeacher setValue:@"老师" forKey:@"occupation"];
+        
+        cangTeacher.associatedBust = @90;
+        cangTeacher.associatedCallBack = ^(){
+            NSLog(@"苍老师要写代码了");
+        };
+        cangTeacher.associatedCallBack();
+        
         
         NSDictionary *propertyResultDic = [cangTeacher allProperties];
         for(NSString *propertyName in propertyResultDic.allKeys) {
